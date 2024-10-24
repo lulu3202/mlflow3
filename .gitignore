@@ -1,0 +1,35 @@
+# VS Code files
+.vscode/
+
+# Conda environment files
+env/
+*.conda
+*.yml
+
+# MLflow experiment tracking
+mlruns/
+
+# Python-related files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.env/
+.ipynb_checkpoints/
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Ignore all mlartifacts directories and their contents
+mlartifacts/
+
+# Ignore all mlruns directories and their contents
+mlruns/
